@@ -1,6 +1,25 @@
 outs:
-- md5: 15e91baa212bfc79b95cb1dd2c0d82b0.dir
-  size: 370549668
-  nfiles: 3
-  hash: md5
+- hash: md5
   path: Weights
+  files:
+  - relpath: best.onnx
+    md5: c56d3305cc9cb9974439e07e7bed7567
+    size: 184971215
+    cloud:
+      storage:
+        etag: 08fc9e858af4e284031001
+        version_id: '1709840460238716'
+  - relpath: best.pt
+    md5: 653022ce36c41c5938291a780821cf4f
+    size: 92791552
+    cloud:
+      storage:
+        etag: 08fee8ee86f4e284031001
+        version_id: '1709840453579902'
+  - relpath: pre.pt
+    md5: c95fcdbc9f78596bfb2277da873bd857
+    size: 92786901
+    cloud:
+      storage:
+        etag: 08a0aff386f4e284031001
+        version_id: '1709840453654432'
