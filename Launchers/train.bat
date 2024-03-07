@@ -1,0 +1,3 @@
+@echo off 
+cd "C:\ConceivableProjects\routine3\v0.0.1\Code" 
+python train.py --batch 40 --epochs 50 --hyp "C:\ConceivableProjects\routine3\v0.0.1\Config\hyps.yaml" --optimizer SGD --device cuda:0 --cfg "C:\ConceivableProjects\routine3\v0.0.1\Config\yolov5l_classes_config.yaml" --data "C:\ConceivableProjects\routine3\v0.0.1\Config\data_location.yaml" --imgsz 640 --weights "C:\ConceivableProjects\routine3\v0.0.1\Weights\pre.pt" --cache
