@@ -1,0 +1,8 @@
+names:
+  0: coc_or_oocyte
+  1: pasteur
+  2: pl
+  3: ps
+path: C:\ConceivableProjects\routine3\v0.0.1\Data
+train: images\train
+val: images\val
